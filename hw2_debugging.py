@@ -34,19 +34,8 @@ arr_out = mergeSort(arr)
 print(arr_out)
 
 def selection_sort(arr):
-    """Sorts a list using the selection sort algorithm (with a potential issue).
-
-    Args:
-      arr: The list to be sorted.
-
-    Returns:
-      The sorted list.  Returns the original list if it's empty.
-      Does not modify the original list (creates a copy).
-    """
-
-    if not arr:  # Handle empty input
-        return arr
-
+    """Selection sort algorithm."""
+    
     n = len(arr)
     arr_copy = arr[:]  # Create a copy
 
