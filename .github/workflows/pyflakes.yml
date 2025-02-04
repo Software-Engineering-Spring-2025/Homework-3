@@ -26,4 +26,4 @@ jobs:
           pip install pyflakes
   
       - name: Run Pyflakes
-        run: pyflakes .
+        run: pyflakes $(git ls-files '*.py')
