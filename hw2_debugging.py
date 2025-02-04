@@ -35,7 +35,7 @@ print(arr_out)
 
 def selection_sort(arr):
     """Selection sort algorithm."""
-    
+
     n = len(arr)
     arr_copy = arr[:]  # Create a copy
 
