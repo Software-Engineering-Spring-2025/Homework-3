@@ -1,0 +1,181 @@
+venv/lib/python3.13/site-packages/pip/_internal/utils/compat.py:18:9: '_ssl' imported but unused
+venv/lib/python3.13/site-packages/pip/_internal/utils/unpacking.py:29:5: 'bz2' imported but unused
+venv/lib/python3.13/site-packages/pip/_internal/utils/unpacking.py:37:5: 'lzma' imported but unused
+venv/lib/python3.13/site-packages/pip/_internal/cli/req_command.py:16:1: 'pip._internal.cli.index_command.SessionCommandMixin' imported but unused
+venv/lib/python3.13/site-packages/pip/_internal/vcs/__init__.py:8:1: 'pip._internal.vcs.subversion' imported but unused
+venv/lib/python3.13/site-packages/pip/_internal/vcs/__init__.py:9:1: 'pip._internal.vcs.versioncontrol.RemoteNotFoundError' imported but unused
+venv/lib/python3.13/site-packages/pip/_internal/vcs/__init__.py:9:1: 'pip._internal.vcs.versioncontrol.RemoteNotValidError' imported but unused
+venv/lib/python3.13/site-packages/pip/_internal/vcs/__init__.py:9:1: 'pip._internal.vcs.versioncontrol.is_url' imported but unused
+venv/lib/python3.13/site-packages/pip/_internal/vcs/__init__.py:9:1: 'pip._internal.vcs.versioncontrol.make_vcs_requirement_url' imported but unused
+venv/lib/python3.13/site-packages/pip/_internal/vcs/__init__.py:9:1: 'pip._internal.vcs.versioncontrol.vcs' imported but unused
+venv/lib/python3.13/site-packages/pip/_internal/commands/install.py:416:21: 'pip._internal.self_outdated_check' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/typing_extensions.py:1814:5: redefinition of unused '_ConcatenateGenericAlias' from line 1764
+venv/lib/python3.13/site-packages/pip/_vendor/truststore/__init__.py:33:5: undefined name '_api'
+venv/lib/python3.13/site-packages/pip/_vendor/msgpack/__init__.py:1:1: 'from .exceptions import *' used; unable to detect undefined names
+venv/lib/python3.13/site-packages/pip/_vendor/msgpack/__init__.py:1:1: '.exceptions.*' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/msgpack/__init__.py:2:1: '.ext.ExtType' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/msgpack/__init__.py:2:1: '.ext.Timestamp' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/msgpack/__init__.py:17:9: '.fallback.Unpacker' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/pygments/lexer.py:229:27: undefined name 'chardet'
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:11:1: 'shutil' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:21:20: undefined name 'basestring'
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:22:17: undefined name 'unicode'
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:31:26: undefined name 'unicode'
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:46:17: undefined name 'raw_input'
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:64:5: 'io.StringIO' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:67:5: 'io.TextIOWrapper as file_type' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:68:5: 'builtins' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:69:5: 'configparser' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:70:5: 'urllib.parse.urlparse' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:70:5: 'urllib.parse.urlunparse' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:70:5: 'urllib.parse.urljoin' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:70:5: 'urllib.parse.urlsplit' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:70:5: 'urllib.parse.urlunsplit' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:70:5: 'urllib.parse.unquote' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:70:5: 'urllib.parse.splittype' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:70:5: 'urllib.parse.quote' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:72:5: 'urllib.request.urlretrieve' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:72:5: 'urllib.request.url2pathname' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:72:5: 'urllib.request.pathname2url' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:72:5: 'urllib.request.Request' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:72:5: 'urllib.request.urlopen' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:72:5: 'urllib.request.HTTPBasicAuthHandler' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:72:5: 'urllib.request.HTTPPasswordMgr' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:72:5: 'urllib.request.HTTPHandler' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:72:5: 'urllib.request.HTTPRedirectHandler' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:72:5: 'urllib.request.build_opener' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:77:9: 'urllib.request.HTTPSHandler' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:78:5: 'urllib.error.ContentTooShortError' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:78:5: 'urllib.error.URLError' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:78:5: 'urllib.error.HTTPError' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:79:5: 'http.client as httplib' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:80:5: 'urllib.request as urllib2' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:81:5: 'xmlrpc.client as xmlrpclib' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:82:5: 'queue' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:84:5: 'html.entities as htmlentitydefs' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:86:5: 'itertools.filterfalse' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:318:1: 'sysconfig' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:479:5: 'cgi.escape' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:483:5: 'html.unescape' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/distlib/compat.py:504:37: undefined name 'get_ident'
+venv/lib/python3.13/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py:9:1: 'typing.Union' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/idna/compat.py:1:1: 'from .core import *' used; unable to detect undefined names
+venv/lib/python3.13/site-packages/pip/_vendor/idna/compat.py:2:1: 'from .codec import *' used; unable to detect undefined names
+venv/lib/python3.13/site-packages/pip/_vendor/idna/compat.py:6:12: 'encode' may be undefined, or defined from star imports: .codec, .core
+venv/lib/python3.13/site-packages/pip/_vendor/idna/compat.py:9:12: 'decode' may be undefined, or defined from star imports: .codec, .core
+venv/lib/python3.13/site-packages/pip/_vendor/idna/__init__.py:1:1: '.package_data.__version__' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/idna/core.py:5:1: 'typing.Optional' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/sessions.py:33:1: '.models.REDIRECT_STATI' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/sessions.py:41:1: '.utils.should_bypass_proxies' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:40:1: 'json' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:41:1: 'json.JSONDecodeError' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:44:1: 'collections.OrderedDict' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:45:1: 'collections.abc.Callable' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:45:1: 'collections.abc.Mapping' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:45:1: 'collections.abc.MutableMapping' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:46:1: 'http.cookiejar as cookielib' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:47:1: 'http.cookies.Morsel' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:48:1: 'io.StringIO' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:53:1: 'urllib.parse.quote' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:53:1: 'urllib.parse.quote_plus' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:53:1: 'urllib.parse.unquote' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:53:1: 'urllib.parse.unquote_plus' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:53:1: 'urllib.parse.urldefrag' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:53:1: 'urllib.parse.urlencode' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:53:1: 'urllib.parse.urljoin' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:53:1: 'urllib.parse.urlparse' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:53:1: 'urllib.parse.urlsplit' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:53:1: 'urllib.parse.urlunparse' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:65:1: 'urllib.request.getproxies' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:65:1: 'urllib.request.getproxies_environment' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:65:1: 'urllib.request.parse_http_list' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:65:1: 'urllib.request.proxy_bypass' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/compat.py:65:1: 'urllib.request.proxy_bypass_environment' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/models.py:13:1: 'encodings.idna' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:60:19: redefinition of unused 'patch' from line 159
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:146:1: '.packages' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:146:1: '.utils' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:147:1: '.__version__.__author__' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:147:1: '.__version__.__author_email__' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:147:1: '.__version__.__build__' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:147:1: '.__version__.__cake__' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:147:1: '.__version__.__copyright__' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:147:1: '.__version__.__description__' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:147:1: '.__version__.__license__' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:147:1: '.__version__.__title__' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:147:1: '.__version__.__url__' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:147:1: '.__version__.__version__' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:159:1: '.api.delete' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:159:1: '.api.get' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:159:1: '.api.head' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:159:1: '.api.options' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:159:1: '.api.patch' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:159:1: '.api.post' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:159:1: '.api.put' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:159:1: '.api.request' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:160:1: '.exceptions.ConnectionError' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:160:1: '.exceptions.ConnectTimeout' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:160:1: '.exceptions.HTTPError' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:160:1: '.exceptions.JSONDecodeError' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:160:1: '.exceptions.ReadTimeout' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:160:1: '.exceptions.RequestException' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:160:1: '.exceptions.Timeout' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:160:1: '.exceptions.TooManyRedirects' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:160:1: '.exceptions.URLRequired' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:172:1: '.models.PreparedRequest' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:172:1: '.models.Request' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:172:1: '.models.Response' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:173:1: '.sessions.Session' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:173:1: '.sessions.session' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/__init__.py:174:1: '.status_codes.codes' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/utils.py:28:1: '._internal_utils.HEADER_VALIDATORS' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/utils.py:28:1: '._internal_utils.to_native_string' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/utils.py:114:5: redefinition of unused 'proxy_bypass' from line 43
+venv/lib/python3.13/site-packages/pip/_vendor/requests/adapters.py:10:1: 'socket' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/requests/adapters.py:78:5: 'ssl' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/rich/screen.py:9:5: '.console.Group' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/rich/screen.py:34:9: redefinition of unused 'Group' from line 9
+venv/lib/python3.13/site-packages/pip/_vendor/rich/logging.py:278:9: local variable 'foos' is assigned to but never used
+venv/lib/python3.13/site-packages/pip/_vendor/rich/console.py:524:15: undefined name 'get_ipython'
+venv/lib/python3.13/site-packages/pip/_vendor/rich/console.py:2502:19: f-string is missing placeholders
+venv/lib/python3.13/site-packages/pip/_vendor/rich/color.py:597:5: redefinition of unused 'Text' from line 15
+venv/lib/python3.13/site-packages/pip/_vendor/rich/align.py:291:5: redefinition of unused 'Console' from line 17
+venv/lib/python3.13/site-packages/pip/_vendor/rich/_log_render.py:90:5: redefinition of unused 'Console' from line 8
+venv/lib/python3.13/site-packages/pip/_vendor/rich/emoji.py:85:5: redefinition of unused 'Console' from line 17
+venv/lib/python3.13/site-packages/pip/_vendor/rich/traceback.py:165:14: undefined name 'get_ipython'
+venv/lib/python3.13/site-packages/pip/_vendor/rich/traceback.py:725:5: redefinition of unused 'sys' from line 6
+venv/lib/python3.13/site-packages/pip/_vendor/rich/traceback.py:732:9: local variable '_rich_traceback_guard' is assigned to but never used
+venv/lib/python3.13/site-packages/pip/_vendor/rich/traceback.py:733:9: local variable 'zed' is assigned to but never used
+venv/lib/python3.13/site-packages/pip/_vendor/rich/traceback.py:749:17: undefined name 'slfkjsldkfj'
+venv/lib/python3.13/site-packages/pip/_vendor/rich/control.py:218:5: redefinition of unused 'Console' from line 13
+venv/lib/python3.13/site-packages/pip/_vendor/rich/__init__.py:6:1: '._extension.load_ipython_extension' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/rich/text.py:1333:5: redefinition of unused 'Console' from line 32
+venv/lib/python3.13/site-packages/pip/_vendor/rich/live.py:279:5: redefinition of unused 'Live' from line 35
+venv/lib/python3.13/site-packages/pip/_vendor/rich/syntax.py:843:5: redefinition of unused 'sys' from line 4
+venv/lib/python3.13/site-packages/pip/_vendor/rich/table.py:923:5: redefinition of unused 'Console' from line 28
+venv/lib/python3.13/site-packages/pip/_vendor/rich/table.py:925:5: redefinition of unused 'Table' from line 151
+venv/lib/python3.13/site-packages/pip/_vendor/rich/segment.py:708:5: redefinition of unused 'Console' from line 30
+venv/lib/python3.13/site-packages/pip/_vendor/rich/progress.py:1251:17: f-string is missing placeholders
+venv/lib/python3.13/site-packages/pip/_vendor/rich/panel.py:296:5: redefinition of unused 'Console' from line 14
+venv/lib/python3.13/site-packages/pip/_vendor/rich/panel.py:301:5: redefinition of unused 'Padding' from line 8
+venv/lib/python3.13/site-packages/pip/_vendor/rich/jupyter.py:11:5: redefinition of unused 'ConsoleRenderable' from line 4
+venv/lib/python3.13/site-packages/pip/_vendor/urllib3/__init__.py:27:5: 'urllib3_secure_extra' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/urllib3/connection.py:14:1: '.packages.six.moves.http_client.HTTPException' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/urllib3/connection.py:46:1: '._collections.HTTPHeaderDict' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/urllib3/connection.py:569:5: redefinition of unused 'HTTPSConnection' from line 286
+venv/lib/python3.13/site-packages/pip/_vendor/urllib3/util/queue.py:8:5: 'Queue as _unused_module_Queue' imported but unused
+venv/lib/python3.13/site-packages/pip/_vendor/urllib3/util/ssl_match_hostname.py:82:15: undefined name 'unicode'
+venv/lib/python3.13/site-packages/pip/_vendor/urllib3/packages/six.py:49:21: undefined name 'basestring'
+venv/lib/python3.13/site-packages/pip/_vendor/urllib3/packages/six.py:50:27: undefined name 'long'
+venv/lib/python3.13/site-packages/pip/_vendor/urllib3/packages/six.py:52:17: undefined name 'unicode'
+venv/lib/python3.13/site-packages/pip/_vendor/urllib3/packages/six.py:722:16: undefined name 'unicode'
+venv/lib/python3.13/site-packages/pip/_vendor/urllib3/packages/six.py:824:37: undefined name 'basestring'
+venv/lib/python3.13/site-packages/pip/_vendor/urllib3/packages/six.py:828:32: undefined name 'file'
+venv/lib/python3.13/site-packages/pip/_vendor/urllib3/packages/six.py:829:38: undefined name 'unicode'
+venv/lib/python3.13/site-packages/pip/_vendor/urllib3/packages/six.py:841:32: undefined name 'unicode'
+venv/lib/python3.13/site-packages/pip/_vendor/urllib3/packages/six.py:847:32: undefined name 'unicode'
+venv/lib/python3.13/site-packages/pip/_vendor/urllib3/packages/six.py:855:36: undefined name 'unicode'
+venv/lib/python3.13/site-packages/pip/_vendor/urllib3/packages/six.py:859:23: undefined name 'unicode'
+venv/lib/python3.13/site-packages/pip/_vendor/urllib3/packages/six.py:860:21: undefined name 'unicode'
+venv/lib/python3.13/site-packages/pip/_vendor/platformdirs/android.py:130:28: undefined name 'android'
+venv/lib/python3.13/site-packages/pip/_vendor/platformdirs/windows.py:261:9: 'winreg' imported but unused

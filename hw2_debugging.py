@@ -49,4 +49,3 @@ def selection_sort(arr):
 
     return arr_copy
 
-
