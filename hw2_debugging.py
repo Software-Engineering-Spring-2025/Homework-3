@@ -1,51 +1,54 @@
+"""Module containing debugging code."""
+
 import rand
 
-def mergeSort(arr):
-    if (len(arr) == 1):
-        return arr
+def merge_sort(array):
+    """Function for merge sort."""
+    if len(array) == 1:
+        return array
 
-    half = len(arr)//2
+    half = len(array)//2
 
-    return recombine(mergeSort(arr[:half]), mergeSort(arr[half:]))
+    return recombine(merge_sort(array[:half]), merge_sort(array[half:]))
 
-def recombine(leftArr, rightArr):
-    leftIndex = 0
-    rightIndex = 0
-    mergeArr = [None] * (len(leftArr) + len(rightArr))
-    while leftIndex < len(leftArr) and rightIndex < len(rightArr):
-        if leftArr[leftIndex] < rightArr[rightIndex]:
-            rightIndex += 1
-            mergeArr[leftIndex + rightIndex] = leftArr[leftIndex]
+def recombine(left_arr, right_arr):
+    """Function for recombining"""
+    left_index = 0
+    right_index = 0
+    merge_arr = [None] * (len(left_arr) + len(right_arr))
+    while left_index < len(left_arr) and right_index < len(right_arr):
+        if left_arr[left_index] < right_arr[right_index]:
+            right_index += 1
+            merge_arr[left_index + right_index] = left_arr[left_index]
         else:
-            leftIndex += 1
-            mergeArr[leftIndex + rightIndex] = rightArr[rightIndex]
+            left_index += 1
+            merge_arr[left_index + right_index] = right_arr[right_index]
 
-    for i in range(rightIndex, len(rightArr)):
-        mergeArr[leftIndex + rightIndex] = rightArr[i]
-    
-    for i in range(leftIndex, len(leftArr)):
-        mergeArr[leftIndex + rightIndex] = leftArr[i]
+    for i in range(right_index, len(right_arr)):
+        merge_arr[left_index + right_index] = right_arr[i]
 
-    return mergeArr
+    for i in range(left_index, len(left_arr)):
+        merge_arr[left_index + right_index] = left_arr[i]
+
+    return merge_arr
 
 arr = rand.random_array([None] * 20)
-arr_out = mergeSort(arr)
+arr_out = merge_sort(arr)
 
 print(arr_out)
 
-def selection_sort(arr):
+def selection_sort(arr1):
     """Selection sort algorithm."""
 
-    n = len(arr)
-    arr_copy = arr[:]  # Create a copy
+    n = len(arr1)
+    arr_copy = arr1[:]  # Create a copy
 
     for i in range(n):
         min_idx = i
-        for j in range(i, n):  # Issue: Should be range(i + 1, n)
+        for j in range(i + 1, n):  # Issue: Should be range(i + 1, n)
             if arr_copy[j] < arr_copy[min_idx]:
                 min_idx = j
 
         arr_copy[i], arr_copy[min_idx] = arr_copy[min_idx], arr_copy[i]
 
     return arr_copy
-
