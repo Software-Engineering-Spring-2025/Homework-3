@@ -1,8 +1,21 @@
-import subprocess
+"""
+Module: rand
+This module provides a function to generate a randomized array.
+"""
+
+import secrets
 
 def random_array(arr):
-    shuffled_num = None
-    for i in range(len(arr)):
-        shuffled_num = subprocess.run(["shuf", "-i1-20", "-n1"], capture_output=True)
-        arr[i] = int(shuffled_num.stdout)
+    """
+    Generates a random array by replacing each element with a random number.
+
+    Args:
+        arr (list): A list to be filled with random numbers.
+
+    Returns:
+        list: The modified list with random numbers.
+    """
+    for i, _ in enumerate(arr):
+        arr[i] = secrets.randbelow(20) + 1
+
     return arr
