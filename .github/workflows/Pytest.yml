@@ -35,9 +35,5 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        # the code that is run here is referenced from the stackoverflow link provided above ( check answer posted by https://stackoverflow.com/users/3241243/riqq )
-        #git pull
-        #for commit in $(git rev-list ~HEAD..HEAD); do
-        #      git checkout $commit
         pytest
         done
