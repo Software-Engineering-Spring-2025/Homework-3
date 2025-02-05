@@ -26,10 +26,4 @@ jobs:
           pip install pyflakes
   
       - name: Run Pyflakes
-        run: pyflakes $(git ls-files '*.py') > pyflakes_report.txt
-
-      - name: Upload Pyflakes Output as Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: pyflakes-report
-          path: post_traces/pyflakes_report.txt
+        run: pyflakes $(git ls-files '*.py')
