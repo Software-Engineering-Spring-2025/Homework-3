@@ -34,3 +34,16 @@ arr_out = mergeSort(arr)
 print(arr_out)
 
 
+def insertion_sort(arr):
+    n = len(arr)
+    for i in range(1, n+1):  # Incorrect: should be range(1, n)
+        itm = arr[i]  
+        j = i - 1
+        while j >= 0 and arr[j] > itm:
+            arr[j] = arr[j + 1]  # Incorrect shifting logic
+            j -= 1
+        arr[j] = itm  # Incorrect placement of key
+return arr
+
+
+
