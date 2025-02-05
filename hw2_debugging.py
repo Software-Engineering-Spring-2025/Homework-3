@@ -1,49 +1,81 @@
-import rand
+"""
+Module: hw2_debugging
+This module implements merge sort and insertion sort algorithms.
+"""
+import secrets
 
-def mergeSort(arr):
-    if (len(arr) == 1):
-        return arr
 
-    half = len(arr)//2
+def merge_sort(array):
+    """
+    Sorts an array using the merge sort algorithm.
 
-    return recombine(mergeSort(arr[:half]), mergeSort(arr[half:]))
+    Args:
+        array (list): The list to be sorted.
 
-def recombine(leftArr, rightArr):
-    leftIndex = 0
-    rightIndex = 0
-    mergeArr = [None] * (len(leftArr) + len(rightArr))
-    while leftIndex < len(leftArr) and rightIndex < len(rightArr):
-        if leftArr[leftIndex] < rightArr[rightIndex]:
-            rightIndex += 1
-            mergeArr[leftIndex + rightIndex] = leftArr[leftIndex]
+    Returns:
+        list: A sorted list.
+    """
+
+    if len(array) == 1:
+        return array
+
+    half = len(array) // 2
+
+    return recombine(merge_sort(array[:half]), merge_sort(array[half:]))
+
+
+def recombine(left_arr, right_arr):
+    """
+    Merges two sorted arrays into a single sorted array.
+
+    Args:
+        left_arr (list): Left half of a sorted list.
+        right_arr (list): Right half of a sorted list.
+
+    Returns:
+        list: A merged and sorted list.
+    """
+
+    left_index = 0
+    right_index = 0
+    merge_arr = []
+    while left_index < len(left_arr) and right_index < len(right_arr):
+        if left_arr[left_index] < right_arr[right_index]:
+            merge_arr.append(left_arr[left_index])
+            left_index += 1
         else:
-            leftIndex += 1
-            mergeArr[leftIndex + rightIndex] = rightArr[rightIndex]
+            merge_arr.append(right_arr[right_index])
+            right_index += 1
 
-    for i in range(rightIndex, len(rightArr)):
-        mergeArr[leftIndex + rightIndex] = rightArr[i]
-    
-    for i in range(leftIndex, len(leftArr)):
-        mergeArr[leftIndex + rightIndex] = leftArr[i]
+    merge_arr.extend(left_arr[left_index:])
+    merge_arr.extend(right_arr[right_index:])
 
-    return mergeArr
-
-arr = rand.random_array([None] * 20)
-arr_out = mergeSort(arr)
-
-print(arr_out)
+    return merge_arr
 
 
-def insertion_sort(arr):
-    n = len(arr)
-    for i in range(1, n+1):  # Incorrect: should be range(1, n)
-        itm = arr[i]  
+arr = [secrets.randbelow(101) for _ in range(20)]
+arr_out = merge_sort(arr)
+print("Sorted Array (Merge Sort):", arr_out)
+
+
+def insertion_sort(input_list):
+    """
+    Sorts an array using insertion sort.
+
+    Args:
+        input_list (list): The list to be sorted.
+
+    Returns:
+        list: A sorted list.
+    """
+
+    n = len(input_list)
+    for i in range(1, n):
+        itm = input_list[i]
         j = i - 1
-        while j >= 0 and arr[j] > itm:
-            arr[j] = arr[j + 1]  # Incorrect shifting logic
+        while j >= 0 and input_list[j] > itm:
+            input_list[j + 1] = input_list[j]  # Corrected shifting logic
             j -= 1
-        arr[j] = itm  # Incorrect placement of key
-return arr
-
-
+        input_list[j + 1] = itm  # Corrected placement of key
+    return input_list
 
