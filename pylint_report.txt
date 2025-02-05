@@ -1,0 +1,11 @@
+************* Module hw2_debugging
+hw2_debugging.py:7:0: E0001: Parsing failed: 'expected an indented block after 'if' statement on line 6 (hw2_debugging, line 7)' (syntax-error)
+************* Module rand
+rand.py:5:38: C0303: Trailing whitespace (trailing-whitespace)
+rand.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+rand.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
+rand.py:4:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 3.87/10, -3.87)
+
